@@ -9,17 +9,12 @@ for m in range(1,term+1):
         fact=1
         for i in range(1,n+1):
             fact=fact*i
-        #print("fact",fact)
         s=s-pow(x,n)/fact
     else:
         fact=1
         for i in range(1,n+1):
             fact=fact*i
-        #print("fact",fact)
         s=s+pow(x,n)/fact
-    #print(n)
     n=n+2
     k+=1
-    
-    
 print("Sum of cosine series=",s)
