@@ -1,6 +1,5 @@
 l=[1,3,2,3,2,1,2,3,2,1,2,3,2,1,3,3,1,3]
 s=set(l)
-print(s)
 for i in s:
     count=0
     for j in l:
